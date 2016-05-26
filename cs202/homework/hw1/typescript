@@ -1,0 +1,245 @@
+Script started on Wed 22 Apr 2015 03:11:21 PM PDT
+kannasr@ada:~/cs202/homework/hw1$ .[Kg[K./a.out
+WELCOME TO THE GO FISH GAME! 
+You can go first! 
+
+This is the key for cards: 11 - Jack. 12 - Queen. 13 - King. 14- Ace
+This is the Player's hand: 
+**3
+**3
+
+**4
+
+**7
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+3
+Congragulations! You got a book for all the 3 of a kind cards!!!
+This is the Player's hand: 
+**4
+
+**7
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+12
+
+No Dice. GO FISH!
+This is the Player's hand (after): 
+**4
+
+**7
+
+**8
+
+**12
+**12
+**12
+
+This is the Player's hand (after): 
+**4
+
+**7
+
+**8
+
+**12
+**12
+**12
+
+Do you have a 11?
+
+No Dice. GO FISH!
+This is the Player's hand: 
+**4
+
+**7
+
+**8
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+4
+
+No Dice. GO FISH!
+This is the Player's hand (after): 
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+Do you have a 11?
+
+No Dice. GO FISH!
+This is the Player's hand: 
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+8
+
+No Dice. GO FISH!
+This is the Player's hand (after): 
+**4
+
+**7
+
+**8
+**8
+
+**10
+
+**12
+**12
+**12
+
+Do you have a 14?
+
+No Dice. GO FISH!
+This is the Player's hand: 
+**4
+
+**7
+
+**8
+**8
+
+**10
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+10
+Congragulations! You got a book for all the 10 of a kind cards!!!
+This is the Player's hand: 
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+12
+
+No Dice. GO FISH!
+This is the Player's hand (after): 
+**3
+
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+This is the Player's hand (after): 
+**3
+
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+Do you have a 11?
+
+No Dice. GO FISH!
+This is the Player's hand: 
+**3
+
+**4
+
+**7
+
+**8
+**8
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+3
+
+No Dice. GO FISH!
+This is the Player's hand (after): 
+**3
+
+**4
+
+**7
+
+**8
+**8
+
+**9
+
+**12
+**12
+**12
+
+Do you have a 14?
+
+No Dice. GO FISH!
+This is the Player's hand: 
+**3
+
+**4
+
+**7
+
+**8
+**8
+
+**9
+
+**12
+**12
+**12
+
+What card would you like to ask the computer if it has?
+^C
+kannasr@ada:~/cs202/homework/hw1$ exit
+exit
+
+Script done on Wed 22 Apr 2015 03:12:56 PM PDT

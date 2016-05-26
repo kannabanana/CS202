@@ -1,0 +1,12 @@
+cs202_lab6.cpp: In member function ‘Shape& Shape::operator=(const Shape&)’:
+cs202_lab6.cpp:38:11: error: no match for ‘operator=’ (operand types are ‘const Shape’ and ‘char*’)
+         s = new char[strlen(s.color)+1];
+           ^
+cs202_lab6.cpp:38:11: note: candidate is:
+cs202_lab6.cpp:34:8: note: Shape& Shape::operator=(const Shape&)
+ Shape& Shape::operator = (const Shape& s)
+        ^
+cs202_lab6.cpp:34:8: note:   no known conversion for argument 1 from ‘char*’ to ‘const Shape&’
+cs202_lab6.cpp:39:25: error: cannot convert ‘const Shape’ to ‘char*’ for argument ‘1’ to ‘char* strcpy(char*, const char*)’
+         strcpy(s,s.color);
+                         ^

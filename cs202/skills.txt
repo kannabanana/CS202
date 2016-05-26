@@ -1,0 +1,7 @@
+operator overloading
+dynamic binding
+pointers
+text files
+graphs
+valgrind/gdb
+linux commands

@@ -1,0 +1,154 @@
+In file included from lll_lll.h:13:0,
+                 from bst.h:13,
+                 from bst.cpp:11:
+data_st.h:18:1: error: ‘rukkaana’ does not name a type
+ rukkaana Iduppirukaana
+ ^
+In file included from data_st.cpp:13:0:
+data_st.h:18:1: error: ‘rukkaana’ does not name a type
+ rukkaana Iduppirukaana
+ ^
+data_st.cpp:18:1: error: prototype for ‘node_lll::node_lll()’ does not match any in class ‘node_lll’
+ node_lll::node_lll():course()
+ ^
+In file included from data_st.cpp:13:0:
+data_st.h:16:7: error: candidates are: node_lll::node_lll(const node_lll&)
+ class node_lll: public course
+       ^
+data_st.h:23:2: error:                 node_lll::node_lll(const course&)
+  node_lll(const course &);   //copy consturcotr I: Takes a course object by reference O: NA
+  ^
+data_st.h:22:2: error:                 node_lll::node_lll(node_lll* const&)
+  node_lll(node_lll * const& to_insert);  //copy constructor I: Takes a node_lll pointer O: NA
+  ^
+data_st.cpp: In member function ‘void lll::insert(const course&)’:
+data_st.cpp:33:1: error: ‘node_lll::node_lll(const course&)’ is private
+ node_lll::node_lll(const course & course_obj):course(course_obj)
+ ^
+data_st.cpp:103:32: error: within this context
+   head = new node_lll(to_insert);
+                                ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:104:17: error: within this context
+   head->go_next() = NULL;
+                 ^
+data_st.cpp:33:1: error: ‘node_lll::node_lll(const course&)’ is private
+ node_lll::node_lll(const course & course_obj):course(course_obj)
+ ^
+data_st.cpp:110:43: error: within this context
+   node_lll * temp = new node_lll(to_insert);
+                                           ^
+data_st.cpp:49:6: error: ‘void node_lll::set_next(node_lll*)’ is private
+ void node_lll::set_next(node_lll * source)
+      ^
+data_st.cpp:111:22: error: within this context
+   temp->set_next(head);
+                      ^
+data_st.cpp: In member function ‘void lll::copy_lll(node_lll* const&, node_lll*&)’:
+data_st.cpp:41:1: error: ‘node_lll::node_lll(node_lll* const&)’ is private
+ node_lll::node_lll(node_lll * const& to_insert):course(to_insert)
+ ^
+data_st.cpp:129:29: error: within this context
+   dest = new node_lll(source);
+                             ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:130:35: error: within this context
+   return copy_lll(source->go_next(),dest->go_next());
+                                   ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:130:51: error: within this context
+   return copy_lll(source->go_next(),dest->go_next());
+                                                   ^
+data_st.cpp: In member function ‘void lll::display_all()’:
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:146:24: error: within this context
+   temp = temp->go_next();
+                        ^
+data_st.cpp: In member function ‘void lll::remove_all(node_lll*&)’:
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:165:27: error: within this context
+  remove_all(head->go_next());
+                           ^
+data_st.cpp:25:1: error: ‘virtual node_lll::~node_lll()’ is private
+ node_lll::~node_lll()
+ ^
+data_st.cpp:167:8: error: within this context
+ delete head;
+        ^
+data_st.cpp: In member function ‘void lll::retrieve(char*)’:
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:183:24: error: within this context
+   temp = temp->go_next();
+                        ^
+data_st.cpp: In member function ‘void lll::remove_matching(node_lll*&, char*)’:
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:200:19: error: within this context
+ if (head->go_next() == NULL)
+                   ^
+data_st.cpp:25:1: error: ‘virtual node_lll::~node_lll()’ is private
+ node_lll::~node_lll()
+ ^
+data_st.cpp:204:11: error: within this context
+    delete head;  //calls the destructor
+           ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:206:17: error: within this context
+   head->go_next() = NULL;
+                 ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:212:19: error: within this context
+ if (head->go_next() != NULL)
+                   ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:216:35: error: within this context
+   node_lll * temp = head->go_next(); //set the temp to head next
+                                   ^
+data_st.cpp:25:1: error: ‘virtual node_lll::~node_lll()’ is private
+ node_lll::~node_lll()
+ ^
+data_st.cpp:217:10: error: within this context
+   delete head;
+          ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:219:40: error: within this context
+   return remove_matching(head->go_next(),course_find);
+                                        ^
+data_st.cpp:56:13: error: ‘node_lll*& node_lll::go_next()’ is private
+ node_lll *& node_lll::go_next()
+             ^
+data_st.cpp:222:40: error: within this context
+   return remove_matching(head->go_next(),course_find);
+                                        ^
+In file included from lll_lll.h:13:0,
+                 from lll_lll.cpp:12:
+data_st.h:18:1: error: ‘rukkaana’ does not name a type
+ rukkaana Iduppirukaana
+ ^
+In file included from lll_lll.h:13:0,
+                 from bst.h:13,
+                 from main.cpp:12:
+data_st.h:18:1: error: ‘rukkaana’ does not name a type
+ rukkaana Iduppirukaana
+ ^

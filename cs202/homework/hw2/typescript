@@ -1,0 +1,57 @@
+Script started on Fri 08 May 2015 03:00:10 PM PDT
+kannasr@ada:~/cs202/homework/hw2$ ./a.out
+How many terms have you taken at PSU? 
+3
+Please enter your information in order by the term you took them! 
+
+What is the name of a term you would like enter. Please enter the year and then the term. EXAMPLE: 2015 Spring? 2015 Winter
+Please enter your information in order by the term you took them! 
+
+Please enter a course title: CS202
+Please enter the number of credits 4
+Please enter the grade you recieved. A, A-, B+, B, B-, C+, C, C-, D+, D, D- and F are all valid entries. A
+Whas this course mandatory? Y/N. Y
+Is this course a CS course? Y/N Y
+Are you done entering classes for this term? Y/N N
+Please enter your information in order by the term you took them! 
+
+Please enter a course title: C Honors201
+Please enter the number of credits 4
+Please enter the grade you recieved. A, A-, B+, B, B-, C+, C, C-, D+, D, D- and F are all valid entries. A-
+Whas this course mandatory? Y/N. Y
+Is this course a CS course? Y/N N
+Are you done entering classes for this term? Y/N Y
+What is the name of a term you would like enter. Please enter the year and then the term. EXAMPLE: 2015 Spring? 2016 Sr pring
+Please enter your information in order by the term you took them! 
+
+Please enter a course title: CS  CS50  250
+Please enter the number of credits 5 4
+Please enter the grade you recieved. A, A-, B+, B, B-, C+, C, C-, D+, D, D- and F are all valid entries. A
+Whas this course mandatory? Y/N. Y
+Is this course a CS course? Y/N Y
+Are you done entering classes for this term? Y/N Y
+What is the name of a term you would like enter. Please enter the year and then the term. EXAMPLE: 2015 Spring? 2017   6 Winter
+Please enter your information in order by the term you took them! 
+
+Please enter a course title: CS251
+Please enter the number of credits 4
+Please enter the grade you recieved. A, A-, B+, B, B-, C+, C, C-, D+, D, D- and F are all valid entries. A
+Whas this course mandatory? Y/N. Y
+Is this course a CS course? Y/N Y
+Are you done entering classes for this term? Y/N Y
+The name of the term is: 2016 Winter	The name of the course is CS251	The number of credits is 4	The grade earned was A
+The name of the term is: 2016 Spring	The name of the course is CS250	The number of credits is 4	The grade earned was A
+The name of the term is: 2015 Winter	The name of the course is Honors201	The number of credits is 4	The grade earned was A-
+The name of the course is CS202	The number of credits is 4	The grade earned was A
+Please enter a term to see 
+2015 Winter
+The name of the course is Honors201	The number of credits is 4	The grade earned was A-
+The name of the course is CS202	The number of credits is 4	The grade earned was A
+Please enter a term to remove 
+2015 Winter
+This is after removing 2015 Winter:
+The name of the term is: 2016 Winter	The name of the course is CS251	The number of credits is 4	The grade earned was A
+The name of the term is: 2016 Spring	The name of the course is CS250	The number of credits is 4	The grade earned was A
+kannasr@ada:~/cs202/homework/hw2$ exit
+
+Script done on Fri 08 May 2015 03:02:02 PM PDT
